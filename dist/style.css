@@ -1,0 +1,59 @@
+body {
+  background-color: teal;
+}
+
+hr {
+  width: 100%;
+  color: teal;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#quote-box {
+  height: 200px;
+  width: 25%;
+  margin: auto;
+  padding: 1%;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: PaleTurquoise;
+}
+
+#text {
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+  margin: 10px 0px 20px 0px;
+  color: #03224c;
+}
+
+#author {
+  text-align: right;
+  color: #03224c;
+}
+
+#new-quote {
+  height: 35px;
+  background-color: teal;
+  color: PaleTurquoise;
+  border: none;
+  border-radius: 5%;
+  float: right;
+}
+#new-quote:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#tweet-quote {
+  height: 27px;
+  width: 30px;
+  text-align: center;
+  padding-top: 6px;
+  border: 1px solid blue;
+  color: blue;
+  border-radius: 15%;
+  float: left;
+}
